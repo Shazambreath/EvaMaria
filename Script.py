@@ -131,6 +131,11 @@ This module only works for my admins
 • /chats - <code>to get list of the my chats and ids </code>
 • /leave  - <code>to leave from a chat.</code>
 • /disable  -  <code>do disable a chat.</code>
+• /inkick - command with required arguments and i will kick members from group.
+• /instatus - to check current status of chat member from group.
+• /inkick within_month long_time_ago - to kick users who are offline for more than 6-7 days.
+• /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
+• /dkick - to kick deleted accounts.
 • /ban  - <code>to ban a user.</code>
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
@@ -149,3 +154,14 @@ Added By - {}
 ID - <code>{}</code>
 Name - {}
 """
+CREATOR_REQUIRED = """❗<b>You have To Be The Group Creator To Do That.</b>"""
+      
+INPUT_REQUIRED = "❗ **Arguments Required**"
+      
+KICKED = """✔️ Successfully Kicked {} Members According To The Arguments Provided."""
+      
+START_KICK = """🚮 Removing Inactive Members This May Take A While..."""
+      
+ADMIN_REQUIRED = """Add Me Again with all admin rights.</b>"""
+      
+DKICK = """✔️ Kicked {} Deleted Accounts Successfully."""
