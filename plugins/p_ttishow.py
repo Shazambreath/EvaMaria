@@ -67,7 +67,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('🌐 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🌐', url=f'https://t.me/raixchat')
+            InlineKeyboardButton('🌐 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🌐', url=f'https://t.me/casinova65')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -106,7 +106,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('🌐 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🌐', url=f'https://t.me/raixchat')
+            InlineKeyboardButton('🌐 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🌐', url=f'https://t.me/casinova65')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
