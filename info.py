@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27455835'))
 API_HASH = environ.get('API_HASH', '1ce97f3c93bf1cf86f6b28b4928cf85a')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5927175318:AAFcyPciWuFHDiMS-rkXmmvzZe__-c6ReJs')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6032544530:AAGnxDUqjob-UJNG4wqMI_phMx4mG4AB8EA')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -24,7 +24,7 @@ PICS = (environ.get('PICS', 'https://graph.org/file/80ef3694da647f5aaa170.jpg'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1984043530').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001668266276 -1001692902544 -1001777109666').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001819174099').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '-1001860917454')
@@ -38,7 +38,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster58")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001983684568'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001832564856'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'casinova65')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
 IMDB = is_enabled((environ.get('IMDB', 'False')), True)
