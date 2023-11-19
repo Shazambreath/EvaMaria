@@ -5,12 +5,6 @@ class script(object):
 
 𝖨𝗍𝗌 𝖤𝖺𝗌𝗒 𝖳𝗈 𝖴𝗌𝖾 𝖬𝖾; 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇, 
 𝖳𝗁𝖺𝗍𝗌 𝖠𝗅𝗅, 𝗂 𝗐𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾...🤓🤪
-
-
-
-
-
-
 😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @Casinova65
 """
     HELP_TXT = """
@@ -53,7 +47,7 @@ DONT SPAM
 <b>DEV:</b>
 
 - <a href=https://t.me/casinova65>ᥴꪖ𝘴𝓲ꪀꪮ</a>
-- Source - https://github.com/shazam/EvaMaria """
+- Source - https://t.me/casinova65 """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
