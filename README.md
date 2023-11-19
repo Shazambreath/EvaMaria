@@ -49,7 +49,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/ritheshrkrm/EvaFileFilterBot
+git clone https://github.com/Shazambreath/pi
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
